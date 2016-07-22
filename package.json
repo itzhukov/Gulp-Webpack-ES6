@@ -1,0 +1,44 @@
+{
+  "name": "es6-webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "babel-polyfill": "^6.9.1",
+    "babel-register": "^6.4.3",
+    "babel-runtime": "^6.9.2",
+    "serve-static": "^1.10.0"
+  },
+  "devDependencies": {
+    "babel-core": "^6.10.4",
+    "babel-loader": "^6.2.4",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-preset-stage-0": "^6.5.0",
+    "babel-runtime": "^6.3.13",
+    "del": "^2.2.0",
+    "gulp": "~3.9.1",
+    "gulp-notify": "^2.2.0",
+    "gulp-sass": "^2.3.2",
+    "gulp-size": "^2.1.0",
+    "node-sass": "^3.8.0",
+    "run-sequence": "^1.2.1",
+    "webpack": "^1.11.0",
+    "webpack-dev-middleware": "^1.4.0",
+    "webpack-hot-middleware": "^2.10.0",
+    "webpack-stream": "^3.2.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/itzhukov/Gulp-Webpack-ES6.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/itzhukov/Gulp-Webpack-ES6/issues"
+  },
+  "homepage": "https://github.com/itzhukov/Gulp-Webpack-ES6#readme"
+}
