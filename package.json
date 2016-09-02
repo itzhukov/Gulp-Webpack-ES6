@@ -1,44 +1,63 @@
 {
   "name": "es6-webpack",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
+  "description": "uremont.com",
+  "main": "",
   "dependencies": {
     "babel-polyfill": "^6.9.1",
     "babel-register": "^6.4.3",
     "babel-runtime": "^6.9.2",
+    "react-select": "^1.0.0-beta14",
     "serve-static": "^1.10.0"
   },
   "devDependencies": {
-    "babel-core": "^6.10.4",
-    "babel-loader": "^6.2.4",
+    "babel-core": "^6.14.0",
+    "babel-loader": "^6.2.5",
+    "babel-plugin-transform-class-properties": "^6.11.5",
+    "babel-plugin-transform-react-constant-elements": "^6.9.1",
+    "babel-plugin-transform-react-inline-elements": "^6.8.0",
     "babel-plugin-transform-runtime": "^6.9.0",
     "babel-preset-es2015": "^6.9.0",
+    "babel-preset-react": "^6.5.0",
+    "babel-preset-react-hmre": "^1.1.1",
+    "babel-preset-react-optimize": "^1.0.1",
     "babel-preset-stage-0": "^6.5.0",
     "babel-runtime": "^6.3.13",
+    "colors": "^1.1.2",
+    "compression-webpack-plugin": "^0.3.1",
     "del": "^2.2.0",
     "gulp": "~3.9.1",
+    "gulp-compass": "^2.1.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-livereload": "^3.8.1",
     "gulp-notify": "^2.2.0",
+    "gulp-plumber": "^1.1.0",
+    "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.3.2",
     "gulp-size": "^2.1.0",
+    "gulp-uglify": "^1.5.4",
     "node-sass": "^3.8.0",
+    "npm": "^3.10.5",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
+    "react-hot-loader": "^1.3.0",
+    "react-modal": "^1.4.0",
     "run-sequence": "^1.2.1",
     "webpack": "^1.11.0",
     "webpack-dev-middleware": "^1.4.0",
     "webpack-hot-middleware": "^2.10.0",
     "webpack-stream": "^3.2.0"
   },
+  "scripts": {
+    "build": "NODE_ENV=production gulp --silent",
+    "start": "NODE_ENV=development gulp --silent",
+    "envTest": "NODE_ENV=production node -e 'console.log(process.env.NODE_ENV);'",
+    "test": ""
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/itzhukov/Gulp-Webpack-ES6.git"
+    "url": "git@github.com:itzhukov/Gulp-Webpack-ES6.gitt"
   },
   "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/itzhukov/Gulp-Webpack-ES6/issues"
-  },
-  "homepage": "https://github.com/itzhukov/Gulp-Webpack-ES6#readme"
+  "license": "ISC"
 }
