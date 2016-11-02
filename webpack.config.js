@@ -1,6 +1,5 @@
 var webpack = require('webpack');
 var path = require('path');
-var CompressionPlugin = require("compression-webpack-plugin");
 var colors = require('colors');
 var oldperc = 0;
 
@@ -99,13 +98,6 @@ var config = {
 		new webpack.optimize.MinChunkSizePlugin({minChunkSize: 10000}),
 		new webpack.HotModuleReplacementPlugin(),
 		new webpack.optimize.AggressiveMergingPlugin(),
-		new CompressionPlugin({
-			asset: "[path].gz[query]",
-			algorithm: "gzip",
-			test: /\.js$|\.html$/,
-			threshold: 10240,
-			minRatio: 0.8
-		}),
 		new webpack.ProvidePlugin({
 
 		})
